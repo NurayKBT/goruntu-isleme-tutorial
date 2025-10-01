@@ -3,9 +3,9 @@
 1. Görseli yükleyin:
 ```python
 import cv2
-image = cv2.imread("images/ornek.jpg")
+image = cv2.imread("images1.png")
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-cv2.imwrite("images/ornek_gray.jpg", gray)
+cv2.imwrite("images1.png", gray)
 import matplotlib.pyplot as plt
 
 plt.subplot(1,2,1)
@@ -22,5 +22,6 @@ plt.show()
 
 Aşağıda orijinal ve siyah-beyaz hale getirilmiş görsel karşılaştırması yer almaktadır:
 
-![Orijinal Görsel](images/ornek.jpg)
-![Siyah-Beyaz Görsel](images/ornek_gray.jpg)
+![Orijinal Görsel](images1.png)
+![Siyah-Beyaz Görsel](images1_gray.png)
+
